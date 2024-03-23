@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        var name ="amina"
+        var age = 21
+        console.log("je suis" ,name, "et j'ai" ,age,"ans")
+        console.log(`je suis ${name} et j'ai ${age} ans`)
+
+        if(name == "amina"){
+            console.log("je suis amina")
+        }else{
+            console.log("je ne suis pas amina") 
+        }
+
+        var noteJS = 15
+        var notePython = 7
+        if(((noteJS + notePython) /2)> 10){
+            console.log('vous êtes admis')
+        }else if (((noteJS + notePython) /2) == 10){
+            console.log('au rattrapage')
+        }else{
+            console.log("ajourné")
+        }
+
+        //condition ternaire
+
+        var statut =(age>=20)? "adulte" : "mineur"  
+        console.log(statut)
+
+        var moyenne =(((noteJS + notePython)/2)>10)? "admis" : moyenne =(((noteJS + notePython)/2)==10)? "rattrapage" : "ajourné"
+        console.log(moyenne)
+
+     </script>
+</body>
+</html>
