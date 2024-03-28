@@ -13,3 +13,11 @@ function test2(){
     console.log(i)
 }
 test2()
+
+/* Créer une fonction format text qui a une chaine de caractères comme argument et effectue les opérations suivantes:
+    1-Remplace tout les espaces par des -.
+    2-transforme toute la chaine en miniscule.
+    3-Supprime tout les caractères indésirables: ex(Hello, devs we are in 2024 --> hellodevs-we-are-in-)
+    indice: utiliser les expressions régulières
+     
+*/
