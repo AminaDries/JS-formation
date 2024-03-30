@@ -19,7 +19,7 @@ let majeur= age.every(function(value, index, array){
 console.log(majeur)
 
 let names= ["Amina" , "Massiz"]
-let names2 = [...names] //créer une copie d'un tableau val tab1= val tab2
+let names2 = [...names]  //Créer une copie d'un tableau val tab1= val tab2 : destructuring
 names2.push("Tesnim")
 
 console.log(names, "names");

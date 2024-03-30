@@ -33,3 +33,22 @@ let resultat = multiple.map(function(item){
    return "Bonjour " +item   // return
 } )
 console.log(resultat)
+
+//exercice : Créer une fonction qui prend en paramètre un tableau en entier et qui return un tableau qui a uniquement les nombres pairs
+
+let tab= [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+let pair=tab.map(function(item){
+   if(item % 2 ==0){
+    return item
+   }
+   return 
+})
+console.log(pair)
+
+let tableau=["hello" , "Algeria" , 213]
+
+tableau.splice( 2 , 1 , "gateau" , "plat") //le premier parametre: à partir de quelle index , 2ème: combien d'elements à supprimer , 3ème et 4ème: element à ajouter
+console.log(tableau)                       //toSpliced : créer une copie et la modifier
+console.log(tableau.slice(2));
+console.log(tableau.slice(1,3))
