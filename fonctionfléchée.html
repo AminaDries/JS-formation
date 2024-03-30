@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /* créer une fonction qui prend en paramètre deux arguments : 1er arg c une varchar , 2ème arg : nombre de fois a rep la varchar
+        ex: répéter("massizelle", "2") => massizelle massizelle */
+
+
+        function répéter(chaine , j){
+            return chaine.split("").map(function(i){
+               return i.repeat(j)}).join("")
+            }
+        
+        console.log(répéter("massizelle" , 2))
+
+
+        let repeat2 = (chaine,j)=>{
+            return chaine.split("").map(i=>i.repeat(j)).join("")
+        }
+        console.log(répéter("massizelle" , 2))
+    </script>
+</body>
+</html>

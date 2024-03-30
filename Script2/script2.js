@@ -45,7 +45,6 @@ let t = 0
   for (let i in fruits){
     if(quelFruit ==fruits[i]){
       fruits[t] = '';
-
       alert('il existe')
       existe = true
     }
