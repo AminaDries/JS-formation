@@ -1,0 +1,9 @@
+.para{
+    color: red !important;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+p{
+    color: yellow;
+}
