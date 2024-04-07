@@ -13,9 +13,9 @@ function add(){
 
 }
 
-function changestyle(){
-    const paragraph = document.getElementById("changerstyle")
-    paragraph.className ="para"
+function changestyle() {
+    const paragraph = document.getElementById("changerstyle");
+    paragraph.className ="para"; // Utilisation de className pour changer la classe
 }
 
 function changecolor(){
